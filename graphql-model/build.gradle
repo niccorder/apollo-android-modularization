@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+apply plugin: 'com.apollographql.android'
+
+dependencies {
+    implementation "com.apollographql.apollo:apollo-runtime:$rootProject.graphql"
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
